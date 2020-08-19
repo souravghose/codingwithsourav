@@ -23,6 +23,7 @@ nav a { color:gray;
                 display:inline-block;
                 margin-left:5px;
                 margin-top:5px;
+	        height: 70px;
                 transition-property: color, background-color; 
                 transition-duration: 2s;
                 transition-timing-function: ease;
