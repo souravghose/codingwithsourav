@@ -1,14 +1,14 @@
 .container{ background-color:white;
            /* border:1px solid black;
        */}
-/* .logo{  margin-bottom:30px;
+.logo{  margin-bottom:30px;
                 padding:5px;
                 font-weight:bold;
                 border-radius:20px;
                 display:inline-block;
                 margin-left:5px;
                 margin-top:5px;
-       } */
+       }
 nav a { color:gray;
                text-decoration:none;
                 margin-bottom: 20px;}
@@ -19,7 +19,7 @@ nav a { color:gray;
                 margin-bottom:30px;
                 padding:5px;
                 font-weight:bold;
-                border-radius:14px;
+                border-radius:20px;
                 display:inline-block;
                 margin-left:5px;
                 margin-top:5px;
