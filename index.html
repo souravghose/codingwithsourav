@@ -1,103 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/styles.css">
-	
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CodingWithSourav.com | Home </title>
-<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CodingWithSourav.com | Home </title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <!-- CSS only -->
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="bootstrap.css">
+     <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<header>
-		<nav>
-	<div class="container">
-		
-			
-			<a href="https://souravghose.github.io/codingwithsourav/" class="navbar-brand"><h1>CodingwithSourav</h1></a>
-        
-		
-            
-
-         <ul class="navbar-link">
-			<a href="#login"><li class="navbar-name-login-button navbar-name">Login/SignUp</li></a>
-			<a href="#programming-language"><li class="navbar-name">Programming Language</a>
-				
-				<ul class="subnavlist">
-					<a href="#python"><li class="submenu" id="subid">Python</li></a>
-					<a href="#java"><li class="submenu" id="subid">Java</li></a>
-					<a href="#c++"><li class="submenu" id="subid">C++</li></a>
-					<a href="#swift"><li class="submenu" id="subid">Swift</li></a>
-					<a href="#sql"><li class="submenu" id="subid">SQL</li></a>
-					<a href="#js"><li class="submenu" id="subid">Javascript</li></a>
-					<a href="#C#"><li class="submenu" id="subid">C#</li></a>
-					<a href="#Ruby"><li class="submenu" id="subid">Ruby</li></a>
-				</ul>
-			</li>
-			 <a href="#home"><li class="navbar-name">Web Development</li></a>
-			 
-			 <a href="#home"><li class="navbar-name">Home</li></a>
-			 
-         	
-		 </ul>
-		 
-         </div>
-     </nav> 
-     
-<br>
-      <section id="#programming-language">
-         <div id="programming-edu">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="https://souravghose.github.io/codingwithsourav/"><h1>CodingWithSourav</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active navbar-name">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item navbar-name">
+                  <a class="nav-link" href="#programming-language">Programming Language</a>
+                </li>
+                <li class="nav-item navbar-name">
+                  <a class="nav-link" href="#webdevelopment">Web Develepment</a>
+                </li>   
+                <li class="nav-item navbar-name">
+                    <a class="nav-link" href="#login">Login/SignUp</a>
+                  </li>             
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <br>
+    <section id="programming-language">
+        <div id="programming-edu">
             Programming Language
-         </div>
-      	<span class="courses">
-      	<div class="coursesinformantion">
-      	<h2>Java</h2>
-      	<h3> Learn Java From Scratch </h3>
-      </div>
-      	<div class="coursesinformantion1">
-      	<h2> C++</h2>
-      	<h3> Learn C++ From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion2">
-      	<h2>Python</h2>
-      	<h3> Learn Python From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion3">
-      	<h2>Ruby</h2>
-      	<h3> Learn Ruby From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion4">
-      	<h2>Swift</h2>
-      	<h3> Learn Swift From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion5">
-      	<h2>C#</h2>
-      	<h3> Learn C# From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion6">
-      	<h2>SQL</h2>
-      	<h3> Learn SQL From Scratch </h3>
-      	</div>
-      	<div class="coursesinformantion7">
-      	<h2>JavaScript</h2>
-      	<h3> Learn JavaScript From Scratch </h3>
-      	</div>
-      </section>
-</div>
+        </div>
+        <span class="courses">
+			<span class="coursesinformantion">
+				<a href="https://java.codingwithsourav.com" class="link">
+				<span><img class="course-pic" src="java.png"/></span>
+				<h3> Java for Beginners</h3>
+			  <h4> Learn Java From Scratch </h4>
+			  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+                class="intructor-name">Sourav Ghose</span></div>
+                </a>
+			</span>
+
+
+        <span class="coursesinformantion">
+			
+			<span><img class="course-pic" src="C++.png"/></span>
+			<h3> C++ for Beginners</h3>
+		  <h4> Learn C++ From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        
+        </span>
+
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="python.png"/></span>
+			<h3>Python Crash Course</h3>
+		  <h4>Learn Python From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+        <span class="coursesinformantion">
+		  <span><img class="course-pic" src="ruby.png"/></span>
+				<h3>Ruby</h3>
+		  <h4> Learn Ruby From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="swift.png"/></span>
+			<h3>Swift</h3>
+		  <h4> Learn Swift From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="csharp.png"/></span>
+			<h3>C#</h3>
+		  <h4> Learn C# From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="sql.png"/></span>
+			<h3>SQL</h3>
+		  <h4> Learn SQL From Scratch </h4>
+			<div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="js.png"/></span>
+			<h3>JavaScript</h3>
+		  <h4> Learn JavaScript From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+
+        <span class="coursesinformantion">
+			<span><img class="course-pic" src="php.png"/></span>
+			<h3>PHP</h3>
+		  <h4> Learn php From Scratch </h4>
+		  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+        </span>
+        </span>
+    </section>
+
+
+    <br>
+    <section id="webdesigncourse">
+        <div id="webdevelopment">
+            Web Develepment
+        </div>
+        <span class="courses">
+				 <span class="coursesinformantion">
+					 <span><img class="course-pic" src="html.png"/></span>
+					 <h2>HTML</h2>
+				   <h4> Learn HTML From Scratch </h4>
+				   <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+                class="intructor-name">Sourav Ghose</span></div>
+				 </span>
+
+        <span class="courses">
+					<span class="coursesinformantion">						
+						<span><img class="course-pic" src="CSS.png"/></span>
+						<h2>CSS</h2>
+					  <h4> Learn CSS From Scratch </h4>
+					  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+                class="intructor-name">Sourav Ghose</span></div>
+					</span>
+
+        <span class="coursesinformantion">
+						<span><img class="course-pic" src="js.png"/></span>
+						<h2>JavaScript for Beginners</h2>
+					  <h4> Learn JavaScript From Scratch </h4>
+					  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+        </span>
+
+
+        <span class="coursesinformantion">
+						<span><img class="course-pic" src="jQuery.png"/></span>
+						<h2>jQuery</h2>
+					  <h4> Learn jQuery From Scratch </h4>
+					  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+        </span>
+
+        <span class="coursesinformantion">
+						<span><img class="course-pic" src="angularjs.png"/></span>
+						<h2>Angular + NestJS</h2>
+					  <h4> Learn Angular + NestJS From Scratch </h4>
+					  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+        </span>
+
+        <span class="coursesinformantion">
+						<span><img class="course-pic" src="reactjs.png"/></span>
+						<h2>React + Redux</h2>
+					  <h4> Learn React + Redux From Scratch </h4>
+					  <div class="instructor"></span><img class="instructor-pic" src="souravghose.png"/><span
+            class="intructor-name">Sourav Ghose</span></div>
+        </span>
+        </span>
+
+
+
 
 
 <br>
-      <section id="#programming-language">
-         <div id="web-development">
-		   Web Development
-		   </div>
+
+<ul class="info">
+
+    <li class="total-info">1M+ Students</li>
+    <li class="total-info">30+ Courses</li>
+    <li class="total-info">200+ Hours Video</li>
+
+
+</ul>
 </body>
 </html>
