@@ -74,6 +74,12 @@ li.navbar-name:hover{ color:white;
                  position: relative;
                  font-weight:normal;
              }
+.tagline{color:white;
+         display:block;
+         margin-left: 40px;
+         clear:left;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         clear:right;}
 li.navbar-name-login-button:hover{ color:white;
                                font-weight:normal;
                                background-color:blue;
