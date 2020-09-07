@@ -38,8 +38,8 @@ nav a { color:gray;
          transition-duration: 2s;
          transition-timing-function: ease;
          transition-delay:1s;} */
-.navbar-brand:hover{ color:white;
-                     border: 1px solid orange; }
+.navbar-brand:hover{ 
+                    }
 .navbar-link{ color:gray;
         display:inline-block;
         float:right;
